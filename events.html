@@ -36,9 +36,4 @@ layout: default
         </div>
     </div>
     
-<div markdown="1">
-{% include test.md %}
-</div>
-<br />
-
-{% include test.md %}
+{% capture test %}{% include test.md %}{% endcapture %}{{ test | markdownify }}
