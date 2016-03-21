@@ -1,0 +1,21 @@
+.block-headerbg {
+    background-image: url(../img/bgalt1.jpg);
+}
+
+.app-code-block {
+    background-color: #262f36;
+}
+
+.app-ribbon {
+    background: #2595FF;
+}
+
+.app-navbar {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    position: absolute;
+}
+
+.navbar-transparent .navbar-toggle {    
+  border-color: transparent;
+}
